@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        .caja1 {float: left;
+            height: 500px;
+            width: 500px;
+            padding: 50px;
+            background-color: black;
+            opacity: 0.9;}
+        .caja {float: left;
+            height: 350px;
+            width: 400px;}
+        h1 {font-family: 'Lucida Handwriting';
+            color: darkred;}
+        label {font-family:'Lucida Handwriting';
+                    color: white;}
+        input {font-family:'Lucida Handwriting';
+                    color: black;
+                    width: 285px;
+                    height: 25px;}
+        button {font-family:'Lucida Handwriting';
+                    color: white;
+                    background-color: darkred;
+                    border-radius: 5px;}
+        a {font-family:'Lucida Handwriting';
+                    color: white;
+                    opacity: 0.5;}
+        body {background-color: orange;}
+    </style>
+    </head>
+<body background="img3.jpg">
+    <div class="caja"></div>
+		<div class="caja1">
+			<div class="row">
+				<h1 style="text-align:center">Registrarse</h1>
+			</div>
+			<form class="form-horizontal" method="POST" action="GuardarS.php" autocomplete="off">
+				<div class="form-group">
+					<label for="USUARIO" class="col-sm-2 control-label">Usuario:</label>
+					<center><div class="col-sm-10">
+						<input type="text" class="form-control" id="usuario" name="USUARIO" placeholder="usuario"  required>
+					</div></center>
+				</div>
+                            <div class="form-group">
+					<label for="PASSWORD" class="col-sm-2 control-label">Password:</label>                   
+					<center><div class="col-sm-10">
+						<input type="password" class="form-control" name='PASSWORD' id="password" placeholder="password"  required>
+					</div></center>
+				</div>			
+				<div class="form-group">
+					<label for="NOMBRE_USUARIO" class="col-sm-2 control-label">Nombre Usuario:</label>
+                            
+					<center><div class="col-sm-10">
+						<input type="text" class="form-control" id="nombre completo" name="NOMBRE_USUARIO" placeholder="nombre completo"  required>
+					</div></center>
+				</div>
+				
+				<div class="form-group">
+					<label for="CORREO" class="col-sm-2 control-label">Correo:</label>
+					<center><div class="col-sm-10">
+						<input type="text" class="form-control" id="usuario@gmail.com" name="CORREO" placeholder="usuario@gmail.com"   required>
+					</div></center>
+				</div>
+
+				<div class="form-group">
+					<label for="FECHA" class="col-sm-2 control-label">Fecha: </label>
+					<center><div class="col-sm-10">
+						<input type="text" class="form-control" id="2018/02/10" name="FECHA" placeholder="2018/02/10"  required>
+					</div></center>
+				</div>
+                         <br><br>
+				<center><div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<a id="a" href="index.html" class="btn btn-default">Regresar</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<button type="submit" class="btn btn-primary">Guardar</button>
+					</div>
+				</div></center>
+			</form>
+		</div>
+	</body>
+    </html>
+       

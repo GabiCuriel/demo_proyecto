@@ -1,0 +1,73 @@
+<!DOC TYPE html>
+<html>
+<head>
+    <style>
+        .form-4 input[type=text],
+        .form-4 input[type=password]{
+            margin-bottom: 15px;}
+        h1 {font-family: 'Lucida Handwriting';
+            color: darkred;}
+        label {font-family:'Lucida Handwriting';
+            color: white;}
+        input {font-family:'Lucida Handwriting';
+            color: black;}
+        
+        .caja0 {float: left;
+            height: 450px;
+            width: 400px;
+            opacity: 0.9;}
+        
+        .caja1 {float: left;
+            height: 450px;
+            width: 500px;
+            background-color: black;
+            opacity: 0.9;}
+        
+        .ja1 {height: 100px;
+            width: 400px;
+            float: left;}
+        
+        .otro {width: 50px;
+            height: 80px;
+            float: left;}
+        
+        .largo {float: left;
+        width: 1350px;
+        height: 100px;}
+        
+        input {font-size: 17px;}
+        
+        button {font-family:'Lucida Handwriting';
+                    color: white;
+                    background-color: darkred;
+                    border-radius: 5px;}
+        a {color: white;
+        opacity: 0.6;}
+        body{background-color: darkorange;}
+    </style>
+    </head>
+    <body background="img3.jpg">
+        <div class="largo"></div>
+        <div class="caja0"></div>
+        <div class="caja1">
+   <form class="form-4" action="Loguear.php" method="post">
+    <div class="otro"></div><div class="ja1"><center><hr><h1>Iniciar Sesión </h1></center>
+       <hr></div>
+       <br><br> <br><br> <br><br> <br><br> 
+    <p>
+        <label for="login">&nbsp;&nbsp;&nbsp;&nbsp;Usuario: </label> &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="usuario" name="usuario" placeholder="usuario" required>
+    </p>
+       <br><br> 
+    <p>
+        <label for="password">&nbsp;&nbsp;&nbsp;&nbsp;Contrase&ntilde;a: </label>&nbsp;&nbsp;&nbsp;
+        <input type="password" name='contrasena' placeholder="password" required> 
+    </p>
+       <br>
+    <p>
+            <center><a id="a" href="index.html" class="btn btn-default">Regresar</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="btn btn-primary">Siguiente</button></center>
+</form>
+    </div>
+    </body>
+</html>
+
